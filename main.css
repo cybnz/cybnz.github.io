@@ -1,0 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, darkblue, purple) fixed;
+    color: grey;
+}
+
+.main {
+    top: 30%;
+    padding: 10%;
+}
