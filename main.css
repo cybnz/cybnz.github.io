@@ -1,10 +1,25 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom right, darkblue, purple) fixed;
-    color: grey;
+    background-color: #2b3c4d;
+    background-image: url(IMG_2444.png);
+    background-size: 100%;
 }
 
 .main {
-    top: 30%;
-    padding: 10%;
+    position: fixed;
+    text-align: center;
+    left: 10%;
+    right: 10%;
+    top: 35%;
+}
+
+.main h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.main h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
 }
