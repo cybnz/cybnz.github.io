@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Colours</title>
+    <script>
+      function setBackground() {
+          url = window.location.href;
+          paramaters = (new URL(url)).searchParams;
+          colour = paramaters.get("c");
+          document.body.style.backgroundColor = ("#" + colour);
+      }
+      document.addEventListener("click", function (click) {
+          (document.documentElement).requestFullscreen();
+      }); 
+    </script>
+</head>
+
+<body onload="setBackground()">
+</body>
+
+</html>
